@@ -1,4 +1,4 @@
-SRCS = infragram.js
+SRCS = infragram.js histogram.js
 
 all : $(SRCS)
 

@@ -1,0 +1,23 @@
+#hist {
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+#hist .red {
+    fill: #da4747;
+    fill-opacity: 0.4;
+}
+
+#hist .green {
+    fill: #009900;
+    fill-opacity: 0.4;
+}
+
+#hist .blue {
+    fill: #333399;
+    fill-opacity: 0.4;
+}

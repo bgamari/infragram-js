@@ -1,5 +1,6 @@
 image = null
 mode = "raw"
+hist = null
 r_exp = ""
 g_exp = ""
 b_exp = ""
@@ -155,6 +156,7 @@ file_reader.onload = (oFREvent) ->
             return
 
         image = img
+        hist = new Histogram(img)
         update(img,'raw')
 
 on_file_sel = () ->
